@@ -2,7 +2,7 @@ name: Generate Baseline Profiles
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, tm/bp-generator-automation ]
   workflow_dispatch:
 
 jobs:
